@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+
+# Uploaded/runtime files
+uploads/
+backend/uploads/resumes/*
+!backend/uploads/resumes/.gitkeep
+
+# Local ML assets that are downloaded/recreated during setup
+ml/models/all-MiniLM-L6-v2/
+ml/datasets/job_resume_fit/train.csv
+
+# Keep small final trained model and metadata
+!ml/models/final_resume_ranker.joblib
+!ml/models/final_resume_ranker_metadata.txt
+!ml/models/README.md
+!ml/datasets/job_resume_fit/README.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local server logs
+server.*.log
+backend/server.*.log
+frontend/frontend.*.log

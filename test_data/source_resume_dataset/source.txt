@@ -1,0 +1,3 @@
+Dataset source: https://huggingface.co/datasets/opensporks/resumes
+Downloaded subset size: 60 resumes
+Saved format: TXT

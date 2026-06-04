@@ -1,0 +1,13 @@
+AI Resume Screening Final Model
+Generated at: 2026-05-25 12:49:39
+Selected model: XGBoost
+Dataset: batuhanmtl/job_resume_fit
+Rows used: 2385
+Training rows: 1908
+Testing rows: 477
+Threshold: 75.0%
+Accuracy: 89.52%
+Precision: 69.64%
+Recall: 54.17%
+F1 Score: 60.94%
+Feature names: sbert_similarity_score, skill_string_match_score, fuzzy_match_score, alias_skill_overlap_score, required_skill_score, normalized_skill_overlap_score, resume_quality_score, resume_text_length, job_text_length, resume_skill_count, job_skill_count, skill_overlap_count
